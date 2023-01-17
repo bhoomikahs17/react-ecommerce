@@ -25,3 +25,6 @@ li{
   margin: 0 1rem;
   
 }
+Navbar{
+  position: sticky;
+}

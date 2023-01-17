@@ -6,10 +6,10 @@ function About() {
     <div>
         <Container fluid>
             
-        <Card.Img src="../assets/s7.jpg" alt="Card image" height="500px" width="100%"  className='mb-5'/>
+        <Card.Img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv9sWDzG8PRF3Lwg6eIjoFzn9Xn6wCx8Hqwg&usqp=CAU" alt="Card image" height="500px" width="100%"  className='mb-5'/>
         <Row>
             <Col md={6}>
-            <Card.Img src="../assets/s8.jpg" alt="Card image" height="500px"  width="250px"/>
+            <Card.Img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIVfnu5u6jYU6wYl780-UVRqWUL1OUMMWRnQ&usqp=CAU" alt="Card image" height="500px"  width="250px"/>
 
             </Col>
             <Col md={6} className='mb-5'>

@@ -10,13 +10,11 @@ import Products from './Component/Products';
 import Home from './Component/Home';
 import Layout from './Component/Layout';
 // import NavBar from './Component/NavBar';
-
+import './index.css';
 import About from './Component/About';
 import Contact from './Component/Contact';
 import Login from './Component/Login';
 import Register from './Component/Register';
-import Product from './Component/Product';
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,7 +25,7 @@ root.render(
             <Route path="/" element={<Layout />}>  
               <Route index element={<Home />} />
               <Route path="products" element={<Products />} />
-            <Route path="/products/:id" element={<Product />} />
+            {/* <Route path="/products/:id" element={<Product />} /> */}
               <Route path="about" element={<About />} />
               <Route path="contact" element={<Contact />} />
               <Route path="login" element={<Login />} />

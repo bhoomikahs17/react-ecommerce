@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 import { Container, Col, Row, Button } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import Skeleton from 'react-loading-skeleton';
-import Link from 'react-bootstrap';
+
       
 const Products = () => {
   const [data, setData] = useState([]);
