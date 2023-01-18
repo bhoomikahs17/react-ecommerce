@@ -16,7 +16,7 @@ function Layout (){
         navbarScroll>
           <ul className='ul my-4 '>
           <li className='list_item'>
-            <Link to="/" className='link '>Home</Link>
+            <Link to="/react-ecommerce" className='link '>Home</Link>
           </li>
           <li>
             <Link to="products" className='link'>Products</Link>
